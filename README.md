@@ -19,6 +19,7 @@ You can refine the count by cleaning the string prior to splitting or validating
 End the program.
 
 ## PROGRAM:
+```
 #Developed by: SAI GURUCHANDRAN G
 #Register Number: 23014037
 fname=input("Enter the File Name: ")
@@ -28,6 +29,7 @@ with open(fname,'r') as file:
         word=line.split()
         num+=len(word)
 print("Number of Words: ",num)
+```
 ### OUTPUT:
 
 ![WhatsApp Image 2024-01-02 at 23 52 57_70ed286d](https://github.com/Saiguruchandran/command-line-arguments-to-count-word/assets/144870946/b4837f7c-3017-4b7a-a4fb-2c2cff36a590)
